@@ -1,3 +1,3 @@
-# Bmob2
+# BmobDemo
 一个Bmob的demo项目
-希望大家能喜欢
+在这个项目中我是用了bmob数据处理功能
