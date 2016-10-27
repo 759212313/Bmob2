@@ -1,0 +1,161 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{7678E895-0C95-3947-6F9C-2DEEA922F297}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <TargetFrameworkIdentifier>.NETFramework</TargetFrameworkIdentifier>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Unity Subset v3.5</TargetFrameworkProfile>
+    <CompilerResponseFile></CompilerResponseFile>
+    <UnityProjectType>Game:1</UnityProjectType>
+    <UnityBuildTarget>Android:13</UnityBuildTarget>
+    <UnityVersion>5.3.4f1</UnityVersion>
+    <RootNamespace></RootNamespace>
+    <LangVersion Condition=" '$(VisualStudioVersion)' != '10.0' ">4</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\UnityVS_bin\Debug\</OutputPath>
+    <IntermediateOutputPath>Temp\UnityVS_obj\Debug\</IntermediateOutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_3_4;UNITY_5_3;UNITY_5;ENABLE_NEW_BUGREPORTER;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_FRAME_DEBUGGER;ENABLE_GENERICS;ENABLE_HOME_SCREEN;ENABLE_IMAGEEFFECTS;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_PLUGIN_INSPECTOR;ENABLE_SHADOWS;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_SPRITE_POLYGON;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;INCLUDE_IL2CPP;INCLUDE_DIRECTX12;PLATFORM_SUPPORTS_MONO;ENABLE_LOCALIZATION;ENABLE_ANDROID_ATLAS_ETC1_COMPRESSION;ENABLE_EDITOR_TESTS_RUNNER;UNITY_ANDROID;UNITY_ANDROID_API;ENABLE_SUBSTANCE;UNITY_ANDROID_API;ENABLE_TEXTUREID_MAP;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_LOG_MIXED_STACKTRACE;ENABLE_UNITYWEBREQUEST;PLATFORM_SUPPORTS_ADS_ID;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;ENABLE_MONO;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE;UNITY_PRO_LICENSE</DefineConstants>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\UnityVS_bin\Release\</OutputPath>
+    <IntermediateOutputPath>Temp\UnityVS_obj\Release\</IntermediateOutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DefineConstants>TRACE;UNITY_5_3_OR_NEWER;UNITY_5_3_4;UNITY_5_3;UNITY_5;ENABLE_NEW_BUGREPORTER;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_FRAME_DEBUGGER;ENABLE_GENERICS;ENABLE_HOME_SCREEN;ENABLE_IMAGEEFFECTS;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_PLUGIN_INSPECTOR;ENABLE_SHADOWS;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_SPRITE_POLYGON;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;INCLUDE_IL2CPP;INCLUDE_DIRECTX12;PLATFORM_SUPPORTS_MONO;ENABLE_LOCALIZATION;ENABLE_ANDROID_ATLAS_ETC1_COMPRESSION;ENABLE_EDITOR_TESTS_RUNNER;UNITY_ANDROID;UNITY_ANDROID_API;ENABLE_SUBSTANCE;UNITY_ANDROID_API;ENABLE_TEXTUREID_MAP;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_LOG_MIXED_STACKTRACE;ENABLE_UNITYWEBREQUEST;PLATFORM_SUPPORTS_ADS_ID;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;ENABLE_MONO;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE;UNITY_PRO_LICENSE</DefineConstants>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="mscorlib" />
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="Boo.Lang" />
+    <Reference Include="UnityScript.Lang" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>Library\UnityAssemblies\UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>Library\UnityAssemblies\UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Networking">
+      <HintPath>Library\UnityAssemblies\UnityEngine.Networking.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Networking">
+      <HintPath>Library\UnityAssemblies\UnityEngine.Networking.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>Library\UnityAssemblies\UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>Library\UnityAssemblies\UnityEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.iOS.Extensions.Xcode">
+      <HintPath>Library\UnityAssemblies\UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.iOS.Extensions.Common">
+      <HintPath>Library\UnityAssemblies\UnityEditor.iOS.Extensions.Common.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Assets\Lmwy\Scripts\ArtItem.cs" />
+    <Compile Include="Assets\Lmwy\Scripts\ArtMng.cs" />
+    <Compile Include="Assets\Lmwy\Scripts\Content.cs" />
+    <Compile Include="Assets\Lmwy\Scripts\ContentMode.cs" />
+    <Compile Include="Assets\Lmwy\Scripts\LmDir.cs" />
+    <Compile Include="Assets\Lytj\EntityData.cs" />
+    <Compile Include="Assets\Lytj\EntityModel.cs" />
+    <Compile Include="Assets\Lytj\GameDir.cs" />
+    <Compile Include="Assets\Lytj\Singleton.cs" />
+    <Compile Include="Assets\classes\src\Extensions\BmobObjectExtension.cs" />
+    <Compile Include="Assets\classes\src\Extensions\MiscExtensions.cs" />
+    <Compile Include="Assets\classes\src\api\Bmob.OO.cs" />
+    <Compile Include="Assets\classes\src\api\Bmob.Task.cs" />
+    <Compile Include="Assets\classes\src\api\Bmob.cs" />
+    <Compile Include="Assets\classes\src\api\BmobUnity.cs" />
+    <Compile Include="Assets\classes\src\api\BmobWindows.cs" />
+    <Compile Include="Assets\classes\src\api\BmobWindowsPhone.cs" />
+    <Compile Include="Assets\classes\src\api\IBmobAPI.cs" />
+    <Compile Include="Assets\classes\src\config\Configuration.cs" />
+    <Compile Include="Assets\classes\src\example\BmobScore.cs" />
+    <Compile Include="Assets\classes\src\example\GameObject.cs" />
+    <Compile Include="Assets\classes\src\example\HelloBmob.cs" />
+    <Compile Include="Assets\classes\src\exception\BmobException.cs" />
+    <Compile Include="Assets\classes\src\http\BmobCommand.cs" />
+    <Compile Include="Assets\classes\src\http\BmobInteractionObject.cs" />
+    <Compile Include="Assets\classes\src\http\Http.cs" />
+    <Compile Include="Assets\classes\src\io\BmobACL.cs" />
+    <Compile Include="Assets\classes\src\io\BmobDate.cs" />
+    <Compile Include="Assets\classes\src\io\BmobFile.cs" />
+    <Compile Include="Assets\classes\src\io\BmobGeoPoint.cs" />
+    <Compile Include="Assets\classes\src\io\BmobInput.cs" />
+    <Compile Include="Assets\classes\src\io\BmobInstallation.cs" />
+    <Compile Include="Assets\classes\src\io\BmobKV.cs" />
+    <Compile Include="Assets\classes\src\io\BmobObject.cs" />
+    <Compile Include="Assets\classes\src\io\BmobOutput.cs" />
+    <Compile Include="Assets\classes\src\io\BmobPointer.cs" />
+    <Compile Include="Assets\classes\src\io\BmobQuery.cs" />
+    <Compile Include="Assets\classes\src\io\BmobRelation.cs" />
+    <Compile Include="Assets\classes\src\io\BmobRole.cs" />
+    <Compile Include="Assets\classes\src\io\BmobTable.cs" />
+    <Compile Include="Assets\classes\src\io\BmobTable2.cs" />
+    <Compile Include="Assets\classes\src\io\BmobUser.cs" />
+    <Compile Include="Assets\classes\src\io\IBmobOperator.cs" />
+    <Compile Include="Assets\classes\src\io\IBmobValue.cs" />
+    <Compile Include="Assets\classes\src\io\IBmobWritable.cs" />
+    <Compile Include="Assets\classes\src\io\basic\BmobBoolean.cs" />
+    <Compile Include="Assets\classes\src\io\basic\BmobDouble.cs" />
+    <Compile Include="Assets\classes\src\io\basic\BmobInt.cs" />
+    <Compile Include="Assets\classes\src\io\basic\BmobLong.cs" />
+    <Compile Include="Assets\classes\src\io\basic\BmobNumber.cs" />
+    <Compile Include="Assets\classes\src\io\operator\Add.cs" />
+    <Compile Include="Assets\classes\src\io\operator\AddRelation.cs" />
+    <Compile Include="Assets\classes\src\io\operator\AddUnique.cs" />
+    <Compile Include="Assets\classes\src\io\operator\Delete.cs" />
+    <Compile Include="Assets\classes\src\io\operator\Increment.cs" />
+    <Compile Include="Assets\classes\src\io\operator\Operate.cs" />
+    <Compile Include="Assets\classes\src\io\operator\Remove.cs" />
+    <Compile Include="Assets\classes\src\io\operator\RemoveRelation.cs" />
+    <Compile Include="Assets\classes\src\io\paramater\BmobBatch.cs" />
+    <Compile Include="Assets\classes\src\io\paramater\BmobLocalFile.cs" />
+    <Compile Include="Assets\classes\src\io\paramater\BmobRemote.cs" />
+    <Compile Include="Assets\classes\src\io\paramater\PushParamter.cs" />
+    <Compile Include="Assets\classes\src\io\paramater\SMSParamter.cs" />
+    <Compile Include="Assets\classes\src\io\paramater\ThumbnailParameter.cs" />
+    <Compile Include="Assets\classes\src\json\JsonAdapter.cs" />
+    <Compile Include="Assets\classes\src\json\SimpleJson.cs" />
+    <Compile Include="Assets\classes\src\json\SimpleJsonParser.cs" />
+    <Compile Include="Assets\classes\src\response\BmobResponseParser.cs" />
+    <Compile Include="Assets\classes\src\response\Create.cs" />
+    <Compile Include="Assets\classes\src\response\Delete.cs" />
+    <Compile Include="Assets\classes\src\response\Empty.cs" />
+    <Compile Include="Assets\classes\src\response\EndPoint.cs" />
+    <Compile Include="Assets\classes\src\response\Query.cs" />
+    <Compile Include="Assets\classes\src\response\SMS.cs" />
+    <Compile Include="Assets\classes\src\response\Status.cs" />
+    <Compile Include="Assets\classes\src\response\TimeStamp.cs" />
+    <Compile Include="Assets\classes\src\response\Update.cs" />
+    <Compile Include="Assets\classes\src\response\Upload.cs" />
+    <Compile Include="Assets\classes\src\tools\BmobArrays.cs" />
+    <Compile Include="Assets\classes\src\tools\BmobDebug.cs" />
+    <Compile Include="Assets\classes\src\tools\Utilities.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\SyntaxTree\UnityVS\2015\UnityVS.CSharp.targets" />
+</Project>
